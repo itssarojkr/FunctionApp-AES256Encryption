@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RunSettings>
+
+	<!-- Parameters used by tests at run time -->
+	<TestRunParameters>
+		<Parameter name="AESEncryption:Key" value="u6EKDDHpMRIL8kpmFgsLE2X0T0+SZVb3Aec87W1BNqg=" />
+		<Parameter name="AESEncryption:IV" value="FnfmRuovtM1fvUrdfqMRlw==" />
+	</TestRunParameters>
+
+	<RunConfiguration>
+		<!-- Path relative to directory that contains .runsettings file-->
+		<ResultsDirectory>.\TestResults</ResultsDirectory>
+
+		<!-- Omit the whole tag for auto-detection. -->
+		<!-- [x86] or x64, ARM, ARM64, s390x  -->
+		<!-- You can also change it from the Test menu; choose "Processor Architecture for AnyCPU
+		Projects" -->
+		<TargetPlatform>x64</TargetPlatform>
+
+		<!-- TestSessionTimeout was introduced in Visual Studio 2017 version 15.5 -->
+		<!-- Specify timeout in milliseconds. A valid value should be greater than 0 -->
+		<TestSessionTimeout>10000</TestSessionTimeout>
+
+		<!-- true or false -->
+		<!-- Value that specifies the exit code when no tests are discovered -->
+		<TreatNoTestsAsError>true</TreatNoTestsAsError>
+	</RunConfiguration>
+
+	<!-- MSTest -->
+	<!--
+	<MSTest>
+		<MapInconclusiveToFailed>True</MapInconclusiveToFailed>
+		<CaptureTraceOutput>false</CaptureTraceOutput>
+		<DeleteDeploymentDirectoryAfterTestRunIsComplete>False</DeleteDeploymentDirectoryAfterTestRunIsComplete>
+		<DeploymentEnabled>False</DeploymentEnabled>
+		<AssemblyResolution>
+		<Directory path="D:\myfolder\bin\" includeSubDirectories="false"/>
+		</AssemblyResolution>
+	</MSTest>
+	-->
+
+</RunSettings>

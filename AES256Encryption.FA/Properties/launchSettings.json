@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "AES256Encryption.FA": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7222",
+      "launchBrowser": false
+    }
+  }
+}
